@@ -1,4 +1,4 @@
-name: 'Delete Comment'
+name: 'GetDutchie Delete Comment'
 description: 'delete comments from issue/pr by username'
 author: 'izhangzhihao'
 inputs:
@@ -7,7 +7,7 @@ inputs:
     required: true
   delete_user_name:
     description: 'Github username to delete comments'
-    default: 'open-collective-bot[bot]'
+    default: 'pulumi[bot]'
     required: false
   issue_number:
     description: 'Issue/PR on which to delete comments. If not provided, comments will be deleted across the repo.'
