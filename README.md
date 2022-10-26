@@ -18,9 +18,9 @@ jobs:
   delete-comments:
     runs-on: ubuntu-latest
     steps:
-      - uses: izhangzhihao/delete-comment@master
+      - uses: GetDutchie/github-action-delete-comment@v1.0.0
         with: 
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          delete_user_name: open-collective-bot[bot]
+          github_token: ${{ secrets.DUTCHIE_BOT_TOKEN }}
+          delete_user_name: pulumi[bot]
           issue_number: ${{ github.event.number }}  # remove comments from the current PR
 ```
