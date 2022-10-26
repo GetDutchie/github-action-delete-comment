@@ -11,7 +11,7 @@ across the repository.
 ## Sample Manually Triggered Workflow
 
 ```yaml
-name: delete comments from open-collective-bot
+name: delete stale comments from pulumi previews
 on:
   workflow_dispatch:
 jobs:
