@@ -1,6 +1,9 @@
 name: 'GetDutchie Delete Comment'
 description: 'delete comments from issue/pr by username'
-author: 'izhangzhihao'
+author: 'krisdock'
+branding:
+  icon: 'delete'
+  color: 'red'
 inputs:
   github_token:
     description: 'The GitHub token used to create an authenticated client'
